@@ -13,10 +13,8 @@ public class HelloController {
     protected void onHelloButtonClick() { welcomeText.setText("МОЛОДЧИНА");}
 
     @FXML
-    protected void onHelloButtonClick1() { welcomeText.setText("Тип 1");}
+    protected void onHelloButtonClick1() { welcomeText.setText("ЧЕЛ, ТЫ ЗАБАНЕН");}
 
-    @FXML
-    protected void onHelloButtonClick2() { welcomeText.setText("12.06.2015");}
 
 
 }

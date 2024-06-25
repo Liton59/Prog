@@ -8,6 +8,7 @@
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-   <Label text="Тренировка" translateY="-100.0" />
-    <Button onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="152.0" text="Записи о тренеровке" />
+   <Label fx:id="welcomeText" />
+    <Button onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="152.0" text="Нажми" />
+   <Button mnemonicParsing="false" onAction="#onHelloButtonClick1" prefHeight="25.0" prefWidth="151.0" text="Не нажимай" />
 </VBox>
